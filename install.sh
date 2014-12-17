@@ -30,6 +30,7 @@ echo "source /usr/local/share/chruby/auto.sh" >> "$HOME/.zshrc"
 brew install heroku-toolbelt
 brew install hub
 brew install phantomjs
+brew install redis
 brew install the_silver_searcher
 brew install vim
 
