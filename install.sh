@@ -30,7 +30,6 @@ echo "source /usr/local/share/chruby/auto.sh" >> "$HOME/.zshrc"
 brew install heroku-toolbelt
 brew install hub
 brew install phantomjs
-brew install redis
 brew install the_silver_searcher
 brew install vim
 
@@ -45,6 +44,11 @@ echo "export NVM_DIR=~/.nvm" >> "$HOME/.zshrc"
 echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
 nvm install 0.10
 nvm alias default 0.10
+
+# Install Redis
+brew install redis
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 # Casks
 brew install caskroom/cask/brew-cask
