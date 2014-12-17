@@ -52,6 +52,7 @@ brew cask install alfred
 brew cask alfred link
 brew cask install atom
 brew cask install dropbox
+brew cask install flux
 brew cask install github
 brew cask install gitter
 brew cask install google-chrome
