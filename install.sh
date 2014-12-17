@@ -20,7 +20,7 @@ ruby-install ruby 2.1.5
 # Set default ruby version
 echo "ruby-2.1.5" > "$HOME/.ruby-version"
 
-gem install rubygems-bundler —no-document
+gem install bundler rubygems-bundler --no-document
 gem regenerate_binstubs
 
 echo "source /usr/local/share/chruby/chruby.sh" >> "$HOME/.zshrc"
