@@ -15,10 +15,10 @@ source "$HOME/.zshrc"
 
 brew install chruby
 brew install ruby-install
-ruby-install ruby 2.1.5
+ruby-install ruby 2.2
 
 # Set default ruby version
-echo "ruby-2.1.5" > "$HOME/.ruby-version"
+echo "ruby-2.2" > "$HOME/.ruby-version"
 
 gem install bundler rubygems-bundler --no-document
 gem regenerate_binstubs
