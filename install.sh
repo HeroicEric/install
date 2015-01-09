@@ -15,7 +15,7 @@ source "$HOME/.zshrc"
 
 brew install chruby
 brew install ruby-install
-ruby-install ruby 2.2
+ruby-install ruby 2.2.0
 
 # Set default ruby version
 echo "ruby-2.2" > "$HOME/.ruby-version"
