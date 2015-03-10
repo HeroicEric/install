@@ -42,8 +42,8 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 brew install nvm
 echo "export NVM_DIR=~/.nvm" >> "$HOME/.zshrc"
 echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
-nvm install 0.10
-nvm alias default 0.10
+nvm install node
+nvm alias default node
 
 # Install Redis
 brew install redis
