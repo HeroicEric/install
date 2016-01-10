@@ -23,8 +23,9 @@ echo "ruby-2.2" > "$HOME/.ruby-version"
 gem install bundler rubygems-bundler --no-document
 gem regenerate_binstubs
 
-echo "source /usr/local/share/chruby/chruby.sh" >> "$HOME/.zshrc"
-echo "source /usr/local/share/chruby/auto.sh" >> "$HOME/.zshrc"
+# Not needed if using my dotfiles
+# echo "source /usr/local/share/chruby/chruby.sh" >> "$HOME/.zshrc"
+# echo "source /usr/local/share/chruby/auto.sh" >> "$HOME/.zshrc"
 
 # Crack some more brews
 brew install heroku-toolbelt
@@ -40,8 +41,9 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 # Install NVM and Node
 brew install nvm
-echo "export NVM_DIR=~/.nvm" >> "$HOME/.zshrc"
-echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
+# Not needed if using my dotfiles
+# echo "export NVM_DIR=~/.nvm" >> "$HOME/.zshrc"
+# echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
 nvm install node
 nvm alias default node
 
