@@ -51,3 +51,7 @@ nvm alias default node
 brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
+# Install https://github.com/thoughtbot/pick
+brew tap thoughtbot/formulae
+brew install pick
