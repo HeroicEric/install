@@ -5,7 +5,7 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install oh my zsh (You’ll need to enter your password)
-curl -L http://install.ohmyz.sh | sh
+ssh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Switch current terminal to zsh
 zsh
