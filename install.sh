@@ -49,20 +49,3 @@ nvm alias default node
 brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
-
-# Casks
-brew install caskroom/cask/brew-cask
-brew cask install alfred
-brew cask alfred link
-brew cask install atom
-brew cask install dropbox
-brew cask install flux
-brew cask install github
-brew cask install gitter
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install mailbox
-brew cask install slack
-brew cask install slate
-brew cask install spotify
-brew cask install vlc
